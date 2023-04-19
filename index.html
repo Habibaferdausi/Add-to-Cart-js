@@ -17,9 +17,7 @@
     <header>
       <div class="navbar bg-purple-200 shadow-2xl lg:px-12">
         <div class="flex-1">
-          <a class="font-bold normal-case text-xl text-error"
-            >Happy Shopping</a
-          >
+          <a class="font-bold normal-case text-xl text-error">Happy Shopping</a>
         </div>
         <div class="flex-none gap-2">
           <label tabindex="0" class="btn btn-secondary btn-circle avatar">
@@ -34,129 +32,152 @@
     <main class="">
       <section class="lg:px-12 flex flex-col md:flex-row lg:flex-row">
         <div
-          class="products-cetails w-full md:w-[60%] lg:w-[60%] mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-<!--coffee cart-->
-      <div class="card card-compact w-full bg-purple-100 shadow-xl">
-        <figure>
-          <img class="w-full h-40" src="Images/coffe.jpg"
-          alt="Shoes" />
-        </figure>
-        <div class="card-body text-black">
-          <h2 class="card-title text-error" id="first-name">Coffee</h2>
-          <p>
-           Best Coffee in  Town. Choice Yours
-          </p>
-          <p>Price: $<span id="first-price">110</span></p>
-          <p>Quantity: <span id="first-quantity">5</span></p>
-          <div class="card-actions justify-end">
-            <button class="btn btn-secondary" id="first-card">Add to Cart</button>
+          class="products-cetails w-full md:w-[60%] lg:w-[60%] mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-6"
+        >
+          <!--coffee cart-->
+          <div class="card card-compact w-full bg-purple-100 shadow-xl">
+            <figure>
+              <img class="w-full h-40" src="Images/coffe.jpg" alt="Shoes" />
+            </figure>
+            <div class="card-body text-black">
+              <h2 class="card-title text-error" id="first-name">Coffee</h2>
+              <p>Best Coffee in Town. Choice Yours</p>
+              <p>Price: $<span id="first-price">110</span></p>
+              <p>Quantity: <span id="first-quantity">5</span></p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-secondary" id="first-card">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!--2nd card-->
+          <div class="card card-compact w-full bg-purple-100 shadow-xl">
+            <figure>
+              <img class="w-full h-40" src="Images/chocolate.jpg" alt="Shoes" />
+            </figure>
+            <div class="card-body text-black">
+              <h2 class="card-title text-error">Chocolate</h2>
+              <p>Dark, Milk or White – Which Chocolate Is Best for Your ?</p>
+              <p>Price: $<span>200</span></p>
+              <p>Quantity: <span>10</span></p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-secondary" id="second-card">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!--3rd one-->
+          <div class="card card-compact w-full bg-purple-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full h-40"
+                src="Images/why-were-teddy-bears-invented.jpg"
+                alt="Shoes"
+              />
+            </figure>
+            <div class="card-body text-black">
+              <h2 class="card-title text-error" id="third-title">Teddy Bear</h2>
+              <p>
+                Are you thinking about getting that special someone a cute
+                stuffed teddy bear?
+              </p>
+              <p>Price: $<span id="third-price">500</span></p>
+              <p>Quantity: <span id="third-quantity">5</span></p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-secondary" id="third-card">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!--4th-->
+          <div class="card card-compact w-full bg-purple-100 shadow-xl">
+            <figure>
+              <img class="w-full h-40" src="Images/images.jpg" alt="Shoes" />
+            </figure>
+            <div class="card-body text-black">
+              <h2 class="card-title text-error">Umbrella</h2>
+              <p>Best Umbrella collection in Town.</p>
+              <p>Price: $<span>100</span></p>
+              <p>Quantity: <span>3</span></p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-secondary" id="second-last">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!--5th-->
+
+          <div class="card card-compact w-full bg-purple-100 shadow-xl">
+            <figure>
+              <img class="w-full h-40" src="Images/giftbox.jpg" alt="Shoes" />
+            </figure>
+            <div class="card-body text-black">
+              <h2 class="card-title text-error" id="last-title">Gift Box</h2>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Labore, omnis.
+              </p>
+              <!-- <p>Price: $<span>400</span></p>
+    <p>Quantity: <span>3</span></p> -->
+              <input
+                type="text"
+                id="first-input"
+                placeholder="Price"
+                class="input input-bordered input-sm w-full max-w-xs"
+              />
+              <input
+                type="text"
+                placeholder="Quantity"
+                id="second-input"
+                class="input input-bordered input-sm w-full max-w-xs"
+              />
+              <div class="card-actions justify-end">
+                <button class="btn btn-secondary" id="last-card">
+                  Add to Cart
+                </button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
 
-
-
-<!--2nd card-->
-<div class="card card-compact w-full bg-purple-100 shadow-xl">
-  <figure>
-    <img class="w-full h-40" src="Images/chocolate.jpg" alt="Shoes" />
-  </figure>
-  <div class="card-body text-black">
-    <h2 class="card-title text-error">Chocolate</h2>
-    <p>
-      Dark, Milk or White – Which Chocolate Is Best for Your ?
-    </p>
-    <p>Price: $<span>200</span></p>
-    <p>Quantity: <span>10</span></p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-secondary" id="second-card">
-        Add to Cart
-      </button>
-    </div>
-  </div>
-</div>
-
-<!--3rd one-->
-<div class="card card-compact w-full bg-purple-100 shadow-xl">
-  <figure>
-    <img class="w-full h-40" src="Images/why-were-teddy-bears-invented.jpg" alt="Shoes" />
-  </figure>
-  <div class="card-body text-black">
-    <h2 class="card-title text-error" id="third-title">Teddy Bear</h2>
-    <p>
-      Are you thinking about getting that special someone a cute stuffed teddy bear?
-    </p>
-    <p>Price: $<span id="third-price">500</span></p>
-    <p>Quantity: <span id="third-quantity">5</span></p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-secondary" id="third-card">
-        Add to Cart
-      </button>
-    </div>
-  </div>
-</div>
-
-<!--4th-->
-<div class="card card-compact w-full bg-purple-100 shadow-xl">
-  <figure>
-    <img class="w-full h-40" src="Images/images.jpg" alt="Shoes" />
-  </figure>
-  <div class="card-body text-black">
-    <h2 class="card-title text-error">Umbrella </h2>
-    <p>
-     Best Umbrella collection in Town.
-    </p>
-    <p>Price: $<span>100</span></p>
-    <p>Quantity: <span>3</span></p>
-    <div class="card-actions justify-end">
-      <button class="btn btn-secondary" id="second-last">
-        Add to Cart
-      </button>
-    </div>
-  </div>
-</div>
-
-
-<!--5th-->
-
-
-
-<div class="card card-compact w-full bg-purple-100 shadow-xl">
-  <figure>
-    <img class="w-full h-40" src="Images/giftbox.jpg" alt="Shoes" />
-  </figure>
-  <div class="card-body text-black">
-    <h2 class="card-title text-error" id="last-title">Gift Box</h2>
-    <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-      Labore, omnis.
-    </p>
-    <!-- <p>Price: $<span>400</span></p>
-    <p>Quantity: <span>3</span></p> -->
-    <input
-      type="text"
-      id="first-input"
-      placeholder="Price"
-      class="input input-bordered input-sm w-full max-w-xs"
-    />
-    <input
-      type="text"
-      placeholder="Quantity"
-      id="second-input"
-      class="input input-bordered input-sm w-full max-w-xs"
-    />
-    <div class="card-actions justify-end">
-      <button class="btn btn-secondary" id="last-card">
-        Add to Cart
-      </button>
-    </div>
-  </div>
-</div>
-</div>
-
-
-
-
+        <!-- cart details div  -->
+        <div class="cart-details w-full md:w-[40%] lg:w-[40%] mx-auto ms-12">
+          <h1
+            class="text-3xl text-purple-300 text-center font-bold underline mt-5"
+          >
+            Total Products: <span id="total-product">0</span>
+          </h1>
+          <div class="overflow-x-auto mt-5">
+            <table class="table w-full">
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody id="table-container">
+                <!-- <tr>
+            <th>1</th>
+            <td>Cy Ganderton</td>
+            <td>Quality Control Specialist</td>
+            <td>Blue</td>
+          </tr> -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
