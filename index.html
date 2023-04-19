@@ -63,9 +63,9 @@
               <img class="w-full h-40" src="Images/chocolate.jpg" alt="Shoes" />
             </figure>
             <div class="card-body text-black">
-              <h2 class="card-title text-error">Chocolate</h2>
+              <h2 class="card-title text-error" id="2nd-name">Chocolate</h2>
               <p>Dark, Milk or White – Which Chocolate Is Best for Your ?</p>
-              <p>Price: $<span>200</span></p>
+              <p>Price: $<span id="2nd-price">300</span></p>
               <input
                 type="text"
                 placeholder="Quantity"
@@ -96,7 +96,13 @@
                 stuffed teddy bear?
               </p>
               <p>Price: $<span id="third-price">500</span></p>
-              <p>Quantity: <span id="third-quantity">5</span></p>
+
+              <input
+                type="text"
+                placeholder="Quantity"
+                id="teddy-input"
+                class="input input-bordered text-black bg-rose-300 input-sm w-full max-w-xs"
+              />
               <div class="card-actions justify-end">
                 <button class="btn btn-secondary" id="third-card">
                   Add to Cart

@@ -14,28 +14,23 @@ document.getElementById("second-card").addEventListener("click", function (e) {
 
   const productName = document.getElementById("2nd-name").innerText;
   const productPrice = document.getElementById("2nd-price").innerText;
-  const productQuantity = document.getElementById("coffee-input").value;
+  const productQuantity = document.getElementById("chocolate-input").value;
   const total = parseInt(productPrice) * parseInt(productQuantity);
   displayData(productName, productPrice, productQuantity, total);
 
   disabledButton("second-card");
 });
 
-// third card operation
 document.getElementById("third-card").addEventListener("click", function () {
   serial += 1;
-  //   //   get the data from htm using id
-  //   const productName = document.getElementById("third-title").innerText;
-  //   const productPrice = document.getElementById("third-price").innerText;
-  //   const productQuantity = document.getElementById("third-quantity").innerText;
 
-  //  getting data using common function using getElementById method
-  const pd = getData("third-title", "third-price", "third-quantity");
+  const productName = document.getElementById("third-title").innerText;
+  const productPrice = document.getElementById("third-price").innerText;
+  const productQuantity = document.getElementById("third-quantity").innerText;
 
-  //minus logic
-  const priceTotal = parseInt(pd.productPrice) * parseInt(pd.productQuantity);
+  const priceTotal = parseInt(productPrice) * parseInt(productQuantity);
   //   show the data using function
-  displayData(pd.productName, pd.productPrice, pd.productQuantity, priceTotal);
+  displayData(productName, productPrice, productQuantity, total);
   //   disabled button using function
   disabledButton("third-card");
 });
